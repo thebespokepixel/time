@@ -1,0 +1,48 @@
+{
+  "name": "@thebespokepixel/time",
+  "version": "0.0.1",
+  "description": "A collection of utilities for Time and Space.",
+  "main": "index.js",
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "moment": "^2.13.0"
+  },
+  "devDependencies": {
+    "@thebespokepixel/cordial": "*"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MarkGriffiths@github.com/MarkGriffiths/time.git"
+  },
+  "keywords": [
+    "date",
+    "format"
+  ],
+  "author": "Mark Griffiths <mark@thebespokepixel.com> (http://thebespokepixel.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarkGriffiths/time/issues"
+  },
+  "homepage": "https://github.com/MarkGriffiths/time#readme",
+  "xo": {
+    "ignores": [
+      "lib/*.js"
+    ],
+    "semicolon": false,
+    "esnext": true
+  },
+  "ava": {
+    "verbose": true,
+    "files": [
+      "test/*.js"
+    ]
+  },
+  "buildNumber": 18,
+  "engines": {
+    "node": ">=4.0 <7.0"
+  },
+  "jsnext:main": "lib/index-es6.js"
+}
