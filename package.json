@@ -8,7 +8,7 @@
     "moment": "^2.13.0"
   },
   "devDependencies": {
-    "@thebespokepixel/cordial": "*"
+    "@thebespokepixel/cordial": "0.13.5"
   },
   "scripts": {
     "test": "xo && ava"
