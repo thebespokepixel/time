@@ -1,6 +1,6 @@
 {
   "name": "@thebespokepixel/time",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
   "dependencies": {
@@ -8,10 +8,15 @@
     "moment": "^2.13.0"
   },
   "devDependencies": {
-    "@thebespokepixel/cordial": "*"
+    "@thebespokepixel/cordial": "*",
+    "ava": "^0.15.2",
+    "greenkeeper-postpublish": "^1.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "xo": "^0.16.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "postpublish": "greenkeeper-postpublish"
   },
   "repository": {
     "type": "git",
