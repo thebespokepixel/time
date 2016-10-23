@@ -1,6 +1,6 @@
 {
   "name": "@thebespokepixel/time",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
   "dependencies": {
@@ -113,7 +113,7 @@
       ]
     ]
   },
-  "buildNumber": 10,
+  "buildNumber": 0,
   "engines": {
     "node": ">=4.0 <8.0"
   },
