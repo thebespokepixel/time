@@ -17,6 +17,4 @@ ratings:
 exclude_paths:
 - docs/
 - test/
-- bin/
-- scripts/
 - lib/
