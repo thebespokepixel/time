@@ -4,7 +4,7 @@
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
   "dependencies": {
-    "dateformat": "^1.0.12",
+    "dateformat": "^2.0.0",
     "moment": "^2.15.1"
   },
   "devDependencies": {
