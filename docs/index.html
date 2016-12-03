@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>@thebespokepixel/time 0.2.5 | Documentation</title>
+  <title>@thebespokepixel/time 0.3.0 | Documentation</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="assets/css/ace.min.css" rel="stylesheet">
   <link href="assets/fonts/TypoPRO-Hack/TypoPRO-Hack.css" type="text/css" rel="stylesheet" />
@@ -11,9 +11,9 @@
 </head>
 <body class="m0 documentation">
   <div class="flex">
-    <div class="flex-column fixed top-0 bottom-0 px2 pt2 xs-hide overflow-auto max-height-100 sidebar">
+    <div class="flex-column fixed top-0 bottom-0 px2 pt2 max-height-100 sidebar">
       <h3 class="m0 no-anchor">@thebespokepixel/time</h3>
-      <div class="mb1"><code>v0.2.5</code></div>
+      <div class="mb1"><code>v0.3.0</code></div>
       <input
         placeholder="Filter"
         id="filter-input"
@@ -50,8 +50,8 @@
         <a href="http://documentation.js.org/reading-documentation.html">Need help reading this?</a>
       </div>
     </div>
-    <div class="flex-column px2 xs-hide sidespace">
-      <h3 class="mb0 no-anchor">@thebespokepixel/time</h3>
+    <div class="flex-column px2 sidespace">
+      <h3 class="m0 no-anchor">@thebespokepixel/time</h3>
     </div>
     <div class="flex-auto px2 pt1">
       
@@ -63,15 +63,23 @@
 	
 	
 		<h4>Installation</h4>
-<pre><code class="language-shell">npm install --save @thebespokepixel/time
-</code></pre>
-<h4>Example</h4>
-<pre><code class="language-js">const bespokeTime = require('@thebespokepixel/time').bespokeTime
-const bespokeTimeFormat = require('@thebespokepixel/time').bespokeTimeFormat
+<pre class='hljs'>npm install --save @thebespokepixel/time</pre>
+<h4>Example (ES2015)</h4>
+<pre class='hljs'><span class="hljs-keyword">import</span> bTime <span class="hljs-keyword">from</span> <span class="hljs-string">'@thebespokepixel/time'</span>
 
-const now = bespokeTime()
-console.log(bespokeTimeFormat(now, 'HH:mm:ss'))
-</code></pre>
+<span class="hljs-keyword">const</span> bespokeTime = bTime.bespokeTime
+<span class="hljs-keyword">const</span> bespokeMicrotime = bTime.bespokeMicrotime
+<span class="hljs-keyword">const</span> bespokeTimeFormat = bTime.bespokeTimeFormat
+
+<span class="hljs-keyword">const</span> now = bespokeTime()
+<span class="hljs-built_in">console</span>.log(bespokeTimeFormat(now, <span class="hljs-string">'HH:mm:ss'</span>))</pre>
+<h4>Example (CommonJS)</h4>
+<pre class='hljs'><span class="hljs-keyword">const</span> bespokeTime = <span class="hljs-built_in">require</span>(<span class="hljs-string">'@thebespokepixel/time'</span>).bespokeTime
+<span class="hljs-keyword">const</span> bespokeMicrotime = <span class="hljs-built_in">require</span>(<span class="hljs-string">'@thebespokepixel/time'</span>).bespokeMicrotime
+<span class="hljs-keyword">const</span> bespokeTimeFormat = <span class="hljs-built_in">require</span>(<span class="hljs-string">'@thebespokepixel/time'</span>).bespokeTimeFormat
+
+<span class="hljs-keyword">const</span> now = bespokeTime()
+<span class="hljs-built_in">console</span>.log(bespokeTimeFormat(now, <span class="hljs-string">'HH:mm:ss'</span>))</pre>
 
 	
 </section>
