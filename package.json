@@ -4,18 +4,19 @@
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
   "dependencies": {
-    "dateformat": "^1.0.12",
+    "dateformat": "^2.0.0",
+    "microtime": "^2.1.2",
     "moment": "^2.15.1"
   },
   "devDependencies": {
     "@thebespokepixel/cordial": "^0.17.11",
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "codeclimate-test-reporter": "^0.4.0",
     "documentation": "^4.0.0-beta11",
     "documentation-theme-bespoke": "^0.3.4",
     "greenkeeper-postpublish": "^1.0.1",
     "gulp": "github:gulpjs/gulp#4.0",
-    "nyc": "^8.4.0",
+    "nyc": "^10.0.0",
     "xo": "^0.17.0"
   },
   "scripts": {
@@ -23,7 +24,6 @@
     "doc-serve": "documentation serve --watch --theme node_modules/documentation-theme-bespoke --github --config src/docs/documentation.yml --name $npm_package_name  --project-version $npm_package_version src/index.js",
     "doc-build": "documentation build --format html --output docs --theme node_modules/documentation-theme-bespoke --github --config src/docs/documentation.yml --name $npm_package_name  --project-version $npm_package_version src/index.js",
     "readme": "compile-readme -u src/docs/example.md src/docs/readme.md > readme.md",
-    "code-climate": "nyc report --reporter=text-lcov | codeclimate-test-reporter",
     "coverage": "nyc ava && nyc report --reporter=lcov --report-dir test/coverage; open test/coverage/lcov-report/index.html",
     "clean": "gulp clean",
     "postpublish": "greenkeeper-postpublish"
@@ -112,7 +112,7 @@
       ]
     ]
   },
-  "buildNumber": 0,
+  "buildNumber": 1,
   "engines": {
     "node": ">=4.0 <9.0"
   },
