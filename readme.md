@@ -1,5 +1,7 @@
 # @thebespokepixel/time
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MarkGriffiths/time.svg)](https://greenkeeper.io/)
+
 > Bespoke Time Collection : A collection of utilities for Time and Space.
 
 ##### Status
