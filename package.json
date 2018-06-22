@@ -50,6 +50,7 @@
   "xo": {
     "ignores": [
       "index.js",
+      "index.mjs",
       "docs/**",
       "src/docs/example.js",
       "test/coverage/**"
