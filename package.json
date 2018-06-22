@@ -3,6 +3,11 @@
   "version": "0.3.1",
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
+  "module": "index.mjs",
+  "files": [
+    "index.js",
+    "index.mjs"
+  ],
   "dependencies": {
     "dateformat": "^3.0.3",
     "moment": "^2.22.2"
@@ -45,7 +50,6 @@
   "xo": {
     "ignores": [
       "index.js",
-      "lib/**",
       "docs/**",
       "src/docs/example.js",
       "test/coverage/**"
@@ -112,9 +116,7 @@
       ]
     ]
   },
-  "buildNumber": 0,
   "engines": {
-    "node": ">=4.0 <9.0"
-  },
-  "jsnext:main": "lib/index-es.js"
+    "node": ">=8.0"
+  }
 }
