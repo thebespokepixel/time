@@ -15,6 +15,8 @@ ratings:
   paths:
   - "src/**.js"
 exclude_paths:
-- docs/
 - test/
-- lib/
+- docs/
+- index.js
+- index.mjs
+- gulpfile.js

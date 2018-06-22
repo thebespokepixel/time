@@ -4,7 +4,6 @@
 */
 
 import bespokeTimeFormat from 'dateformat'
-import bespokeMicrotime from 'microtime'
 import bespokeTime from 'moment'
 
-export {bespokeTimeFormat, bespokeMicrotime, bespokeTime}
+export {bespokeTimeFormat, bespokeTime}
