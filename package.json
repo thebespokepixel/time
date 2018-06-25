@@ -110,7 +110,9 @@
         "travis"
       ],
       [
-        "code-climate",
+        "code-climate"
+      ],
+      [
         "code-climate-coverage"
       ],
       [
