@@ -18,7 +18,7 @@
 
 ## About
 
-A convenience package for pulling together all the time modules I use into one place.
+A convenience package for pulling together a bunch of useful time modules into one place.
 
 Currently this includes:
 
@@ -50,8 +50,8 @@ const now = bespokeTime()
 console.log(bespokeTimeFormat(now, 'HH:mm:ss'))
 ```
 
-See [Moment Docs](https://momentjs.com) for `bespokeTime`
-See [dateformat](https://github.com/felixge/node-dateformat) for `bespokeTimeFormat`
+See [Moment Docs](https://momentjs.com) for `bespokeTime`  
+See [dateformat](https://github.com/felixge/node-dateformat) for `bespokeTimeFormat`  
 See [Luxon Docs](https://moment.github.io/luxon/) for `DateTime`, `Interval` and `Duration`
 
 
