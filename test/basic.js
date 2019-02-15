@@ -1,7 +1,7 @@
 import test from 'ava'
 import {bespokeTimeFormat, bespokeTime} from '..'
 
-test(`Basic Formatting as Wednesday, June 15th, 2016, 3:30:26 PM`, t => {
-	const pointInSpaceAndTime = bespokeTime('2016-06-15 15:30:26')
-	t.is(bespokeTimeFormat(pointInSpaceAndTime, 'dddd, mmmm dS, yyyy, h:MM:ss TT'), 'Wednesday, June 15th, 2016, 3:30:26 PM')
+test('Basic Formatting as Friday, February 15th, 2019, 2:06:30 PM', t => {
+	const pointInSpaceAndTime = bespokeTime('2019-02-15 14:06:30')
+	t.is(bespokeTimeFormat(pointInSpaceAndTime, 'dddd, mmmm dS, yyyy, h:MM:ss TT'), 'Friday, February 15th, 2019, 2:06:30 PM')
 })
