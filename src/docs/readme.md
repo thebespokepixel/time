@@ -4,6 +4,15 @@
 
 ${badges}
 
+## About
+
+A convenience package for pulling together a bunch of useful time modules into one place.
+
+Currently this includes:
+- Moment.js
+- Luxon
+- node-dateformat
+
 ## Usage
 ${usage}
 

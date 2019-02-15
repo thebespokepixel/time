@@ -6,7 +6,12 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var dateformat = _interopDefault(require('dateformat'));
 var moment = _interopDefault(require('moment'));
+var luxon = require('luxon');
+
 
 
 exports.bespokeTimeFormat = dateformat;
 exports.bespokeTime = moment;
+exports.DateTime = luxon.DateTime;
+exports.Interval = luxon.Interval;
+exports.Duration = luxon.Duration;

@@ -5,5 +5,6 @@
 
 import bespokeTimeFormat from 'dateformat'
 import bespokeTime from 'moment'
+import {DateTime, Interval, Duration} from 'luxon'
 
-export {bespokeTimeFormat, bespokeTime}
+export {bespokeTimeFormat, bespokeTime, DateTime, Interval, Duration}
