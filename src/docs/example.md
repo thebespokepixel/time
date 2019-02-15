@@ -4,24 +4,21 @@
 npm install --save @thebespokepixel/time
 ```
 
-#### Example (ES2015)
+#### Example
 
 ```js
-import bTime from '@thebespokepixel/time'
-
-const bespokeTime = bTime.bespokeTime
-const bespokeTimeFormat = bTime.bespokeTimeFormat
+import {
+  bespokeTime,
+  bespokeTimeFormat,
+  DateTime,
+  Interval,
+  Duration
+} from '@thebespokepixel/time'
 
 const now = bespokeTime()
 console.log(bespokeTimeFormat(now, 'HH:mm:ss'))
 ```
 
-#### Example (CommonJS)
-
-```js
-const bespokeTime = require('@thebespokepixel/time').bespokeTime
-const bespokeTimeFormat = require('@thebespokepixel/time').bespokeTimeFormat
-
-const now = bespokeTime()
-console.log(bespokeTimeFormat(now, 'HH:mm:ss'))
-```
+See [Moment Docs](https://momentjs.com) for `bespokeTime`  
+See [dateformat](https://github.com/felixge/node-dateformat) for `bespokeTimeFormat`  
+See [Luxon Docs](https://moment.github.io/luxon/) for `DateTime`, `Interval` and `Duration`
