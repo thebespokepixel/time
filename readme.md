@@ -4,8 +4,8 @@
 
 ##### Status
 
-![Status](https://img.shields.io/badge/status-beta-blue.svg?style=flat) [![npm](https://img.shields.io/npm/v/@thebespokepixel/time.svg?style=flat&logo=npm)](https://www.npmjs.com/package/@thebespokepixel/time "npm") [![Travis](https://img.shields.io/travis/MarkGriffiths/time.svg?branch=master&style=flat&logo=travis)](https://travis-ci.org/MarkGriffiths/time "Travis") [![David](https://img.shields.io/david/MarkGriffiths/time.svg?branch=master&style=flat)](https://david-dm.org/MarkGriffiths/time/master "David")  
- [![Code-climate](https://api.codeclimate.com/v1/badges/605efd039f57870ae733/maintainability?style=flat)](https://codeclimate.com/github/MarkGriffiths/time/maintainability "Code-climate") [![Coverage](https://api.codeclimate.com/v1/badges/605efd039f57870ae733/test_coverage?style=flat)](https://codeclimate.com/github/MarkGriffiths/time/test_coverage "Coverage") [![Snyk](https://snyk.io/test/github/MarkGriffiths/time/badge.svg?style=flat)](https://snyk.io/test/github/MarkGriffiths/time "Snyk")   
+![Status](https://img.shields.io/badge/status-utility-green.svg?style=flat) [![npm](https://img.shields.io/npm/v/@thebespokepixel/time.svg?style=flat&logo=npm)](https://www.npmjs.com/package/@thebespokepixel/time "npm") [![Travis](https://img.shields.io/travis/MarkGriffiths/time.svg?branch=master&style=flat&logo=travis)](https://travis-ci.org/MarkGriffiths/time "Travis") [![David](https://img.shields.io/david/MarkGriffiths/time.svg?branch=master&style=flat)](https://david-dm.org/MarkGriffiths/time/master "David")  
+ [![Code-climate](https://api.codeclimate.com/v1/badges/605efd039f57870ae733/maintainability?style=flat)](https://codeclimate.com/github/MarkGriffiths/time/maintainability "Code-climate") [![Coverage](https://api.codeclimate.com/v1/badges/605efd039f57870ae733/test_coverage?style=flat)](https://codeclimate.com/github/MarkGriffiths/time/test_coverage "Coverage") [![Snyk](https://img.shields.io/snyk/vulnerabilities/github/MarkGriffiths/time.svg?style=flat&logo=npm)](https://snyk.io/test/github/MarkGriffiths/time "Snyk")   
 
 ##### Developer
 
