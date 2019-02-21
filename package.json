@@ -1,6 +1,6 @@
 {
   "name": "@thebespokepixel/time",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
   "module": "index.mjs",
@@ -10,16 +10,16 @@
   ],
   "dependencies": {
     "dateformat": "^3.0.3",
-    "luxon": "^1.11.2",
+    "luxon": "^1.11.3",
     "moment": "^2.24.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
     "acorn": "^6.1.0",
     "ava": "^1.2.1",
     "documentation": "^9.1.1",
-    "documentation-theme-bespoke": "^0.4.10",
+    "documentation-theme-bespoke": "^0.4.11",
     "gulp": "^4.0.0",
     "gulp-better-rollup": "^3.4.0",
     "gulp-rename": "^1.4.0",
@@ -74,8 +74,8 @@
     "name": "time",
     "providers": {
       "status": {
-        "text": "beta",
-        "color": "blue"
+        "text": "utility",
+        "color": "green"
       },
       "aux1": {
         "title": "github",
