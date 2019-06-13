@@ -12,6 +12,21 @@ var luxon = require('luxon');
 
 exports.bespokeTimeFormat = dateformat;
 exports.bespokeTime = moment;
-exports.DateTime = luxon.DateTime;
-exports.Interval = luxon.Interval;
-exports.Duration = luxon.Duration;
+Object.defineProperty(exports, 'DateTime', {
+	enumerable: true,
+	get: function () {
+		return luxon.DateTime;
+	}
+});
+Object.defineProperty(exports, 'Duration', {
+	enumerable: true,
+	get: function () {
+		return luxon.Duration;
+	}
+});
+Object.defineProperty(exports, 'Interval', {
+	enumerable: true,
+	get: function () {
+		return luxon.Interval;
+	}
+});
