@@ -5,7 +5,7 @@
 ##### Status
 
 ![Status](https://img.shields.io/badge/status-utility-green.svg?style=flat) [![npm](https://img.shields.io/npm/v/@thebespokepixel/time.svg?style=flat&logo=npm)](https://www.npmjs.com/package/@thebespokepixel/time "npm") [![Travis](https://img.shields.io/travis/thebespokepixel/time.svg?branch=master&style=flat&logo=travis)](https://travis-ci.org/thebespokepixel/time "Travis") [![David](https://img.shields.io/david/thebespokepixel/time.svg?branch=master&style=flat)](https://david-dm.org/thebespokepixel/time/master "David")  
- [![Code-climate](https://api.codeclimate.com/v1/badges/605efd039f57870ae733/maintainability?style=flat)](https://codeclimate.com/github/thebespokepixel/time/maintainability "Code-climate") [![Coverage](https://api.codeclimate.com/v1/badges/605efd039f57870ae733/test_coverage?style=flat)](https://codeclimate.com/github/thebespokepixel/time/test_coverage "Coverage") [![Snyk](https://img.shields.io/snyk/vulnerabilities/github/thebespokepixel/time.svg?style=flat&logo=npm)](https://snyk.io/test/github/thebespokepixel/time "Snyk")   
+ [![Code-climate](https://api.codeclimate.com/v1/badges/a5f59df852258cc2e4aa/maintainability?style=flat)](https://codeclimate.com/github/thebespokepixel/time/maintainability "Code-climate") [![Coverage](https://api.codeclimate.com/v1/badges/a5f59df852258cc2e4aa/test_coverage?style=flat)](https://codeclimate.com/github/thebespokepixel/time/test_coverage "Coverage") [![Snyk](https://img.shields.io/snyk/vulnerabilities/github/thebespokepixel/time.svg?style=flat&logo=npm)](https://snyk.io/test/github/thebespokepixel/time "Snyk")   
 
 ##### Developer
 
@@ -53,6 +53,6 @@ See [Luxon Docs](https://moment.github.io/luxon/) for `DateTime`, `Interval` and
 
 ## Documentation
 
-Full documentation can be found at [https://markgriffiths.github.io/time/][1]
+Full documentation can be found at [https://thebespokepixel.github.io/time/][1]
 
-[1]: https://markgriffiths.github.io/time/
+[1]: https://thebespokepixel.github.io/time/
