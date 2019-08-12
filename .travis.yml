@@ -14,7 +14,7 @@ node_js:
   - 8
 env:
   global:
-    - CC_TEST_REPORTER_ID=a656a3b2d95adaa8c1376bb239f7696f11fd39881678765fdae782f964c670bb
+    - CC_TEST_REPORTER_ID=b129e5637c553a621241bf981f284e7d4a7226fc71b593aa62264b7ea52fd8a5
 before_install:
   - '[[ $(node -v) =~ ^v12.*$ ]] || npm install -g npm@latest'
   - npm install -g greenkeeper-lockfile
