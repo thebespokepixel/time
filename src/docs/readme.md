@@ -17,6 +17,6 @@ Currently this includes:
 ${usage}
 
 ## Documentation
-Full documentation can be found at [https://markgriffiths.github.io/time/][1]
+Full documentation can be found at [https://thebespokepixel.github.io/time/][1]
 
-[1]: https://markgriffiths.github.io/time/
+[1]: https://thebespokepixel.github.io/time/
