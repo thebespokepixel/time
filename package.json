@@ -1,6 +1,6 @@
 {
   "name": "@thebespokepixel/time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of utilities for Time and Space.",
   "main": "index.js",
   "module": "index.mjs",
