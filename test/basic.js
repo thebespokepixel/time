@@ -1,5 +1,5 @@
 import test from 'ava'
-import {bespokeTimeFormat, bespokeTime} from '..'
+import {bespokeTimeFormat, bespokeTime} from '../index.js'
 
 test('Basic Formatting as Friday, February 15th, 2019, 2:06:30 PM', t => {
 	const pointInSpaceAndTime = bespokeTime('2019-02-15 14:06:30')
