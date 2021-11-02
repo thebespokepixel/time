@@ -1,12 +1,8 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var dateformat = _interopDefault(require('dateformat'));
-var moment = _interopDefault(require('moment'));
-var luxon = require('luxon');
+import dateformat from 'dateformat';
+export { default as dateformat } from 'dateformat';
+import moment from 'moment';
+export { default as moment } from 'moment';
+export { DateTime, Duration, Interval } from 'luxon';
 
 const SECOND_SECONDS = 1;
 const SECOND_MILLIS = 1000;
@@ -62,76 +58,4 @@ const MINUTE_DAYS = DAY_DAYS / DAY_MINUTES;
 const bespokeTime = moment;
 const bespokeTimeFormat = dateformat;
 
-exports.dateformat = dateformat;
-exports.moment = moment;
-Object.defineProperty(exports, 'DateTime', {
-	enumerable: true,
-	get: function () {
-		return luxon.DateTime;
-	}
-});
-Object.defineProperty(exports, 'Duration', {
-	enumerable: true,
-	get: function () {
-		return luxon.Duration;
-	}
-});
-Object.defineProperty(exports, 'Interval', {
-	enumerable: true,
-	get: function () {
-		return luxon.Interval;
-	}
-});
-exports.DAY_DAYS = DAY_DAYS;
-exports.DAY_HOURS = DAY_HOURS;
-exports.DAY_MILLIS = DAY_MILLIS;
-exports.DAY_MINUTES = DAY_MINUTES;
-exports.DAY_SECONDS = DAY_SECONDS;
-exports.HOUR_DAYS = HOUR_DAYS;
-exports.HOUR_HOURS = HOUR_HOURS;
-exports.HOUR_MILLIS = HOUR_MILLIS;
-exports.HOUR_MINUTES = HOUR_MINUTES;
-exports.HOUR_SECONDS = HOUR_SECONDS;
-exports.MINUTE_DAYS = MINUTE_DAYS;
-exports.MINUTE_MILLIS = MINUTE_MILLIS;
-exports.MINUTE_MINUTES = MINUTE_MINUTES;
-exports.MINUTE_SECONDS = MINUTE_SECONDS;
-exports.MONTH_DAYS = MONTH_DAYS;
-exports.MONTH_HOURS = MONTH_HOURS;
-exports.MONTH_MILLIS = MONTH_MILLIS;
-exports.MONTH_MINUTES = MONTH_MINUTES;
-exports.MONTH_MONTHS = MONTH_MONTHS;
-exports.MONTH_SECONDS = MONTH_SECONDS;
-exports.MONTH_WEEKS = MONTH_WEEKS;
-exports.QUARTER_DAYS = QUARTER_DAYS;
-exports.QUARTER_HOURS = QUARTER_HOURS;
-exports.QUARTER_MILLIS = QUARTER_MILLIS;
-exports.QUARTER_MINUTES = QUARTER_MINUTES;
-exports.QUARTER_MONTHS = QUARTER_MONTHS;
-exports.QUARTER_QUARTERS = QUARTER_QUARTERS;
-exports.QUARTER_SECONDS = QUARTER_SECONDS;
-exports.QUARTER_WEEKS = QUARTER_WEEKS;
-exports.SECOND_MILLIS = SECOND_MILLIS;
-exports.SECOND_SECONDS = SECOND_SECONDS;
-exports.STANDARD_MONTH_DAYS = STANDARD_MONTH_DAYS;
-exports.STANDARD_MONTH_HOURS = STANDARD_MONTH_HOURS;
-exports.STANDARD_MONTH_MILLIS = STANDARD_MONTH_MILLIS;
-exports.STANDARD_MONTH_MINUTES = STANDARD_MONTH_MINUTES;
-exports.STANDARD_MONTH_SECONDS = STANDARD_MONTH_SECONDS;
-exports.WEEK_DAYS = WEEK_DAYS;
-exports.WEEK_HOURS = WEEK_HOURS;
-exports.WEEK_MILLIS = WEEK_MILLIS;
-exports.WEEK_MINUTES = WEEK_MINUTES;
-exports.WEEK_SECONDS = WEEK_SECONDS;
-exports.WEEK_WEEKS = WEEK_WEEKS;
-exports.YEAR_DAYS = YEAR_DAYS;
-exports.YEAR_HOURS = YEAR_HOURS;
-exports.YEAR_MILLIS = YEAR_MILLIS;
-exports.YEAR_MINUTES = YEAR_MINUTES;
-exports.YEAR_MONTHS = YEAR_MONTHS;
-exports.YEAR_QUARTERS = YEAR_QUARTERS;
-exports.YEAR_SECONDS = YEAR_SECONDS;
-exports.YEAR_WEEKS = YEAR_WEEKS;
-exports.YEAR_YEARS = YEAR_YEARS;
-exports.bespokeTime = bespokeTime;
-exports.bespokeTimeFormat = bespokeTimeFormat;
+export { DAY_DAYS, DAY_HOURS, DAY_MILLIS, DAY_MINUTES, DAY_SECONDS, HOUR_DAYS, HOUR_HOURS, HOUR_MILLIS, HOUR_MINUTES, HOUR_SECONDS, MINUTE_DAYS, MINUTE_MILLIS, MINUTE_MINUTES, MINUTE_SECONDS, MONTH_DAYS, MONTH_HOURS, MONTH_MILLIS, MONTH_MINUTES, MONTH_MONTHS, MONTH_SECONDS, MONTH_WEEKS, QUARTER_DAYS, QUARTER_HOURS, QUARTER_MILLIS, QUARTER_MINUTES, QUARTER_MONTHS, QUARTER_QUARTERS, QUARTER_SECONDS, QUARTER_WEEKS, SECOND_MILLIS, SECOND_SECONDS, STANDARD_MONTH_DAYS, STANDARD_MONTH_HOURS, STANDARD_MONTH_MILLIS, STANDARD_MONTH_MINUTES, STANDARD_MONTH_SECONDS, WEEK_DAYS, WEEK_HOURS, WEEK_MILLIS, WEEK_MINUTES, WEEK_SECONDS, WEEK_WEEKS, YEAR_DAYS, YEAR_HOURS, YEAR_MILLIS, YEAR_MINUTES, YEAR_MONTHS, YEAR_QUARTERS, YEAR_SECONDS, YEAR_WEEKS, YEAR_YEARS, bespokeTime, bespokeTimeFormat };
