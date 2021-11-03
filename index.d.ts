@@ -50,4 +50,6 @@ export const YEAR_SECONDS: number;
 export const YEAR_WEEKS: 52;
 export const YEAR_YEARS: 1;
 export const bespokeTime: any;
-export const bespokeTimeFormat: any;
+export function bespokeTimeFormat(date: any, mask: any, utc: any, gmt: any, ...args: any[]): any;
+declare function dateFormat(date: any, mask: any, utc: any, gmt: any, ...args: any[]): any;
+export { dateFormat as dateformat };
